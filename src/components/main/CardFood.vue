@@ -19,4 +19,11 @@
         background-color: #EBEBEB;
         border-radius: 40px;
     }
+
+    @media screen and (min-width: 1024px) {
+        #card {
+            width: 300px;
+            height: 300px;
+        }
+    }
 </style>

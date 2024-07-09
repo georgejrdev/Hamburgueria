@@ -32,6 +32,10 @@
         padding-top: 10vh;
         min-height: 80vh;
         padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
     }
 
     #food-list {
@@ -39,9 +43,13 @@
         margin-top: 10vh;
         width: 90vw;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
-        gap: 50px;
+        gap:50px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        
     }
 </style>

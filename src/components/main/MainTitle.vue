@@ -22,4 +22,10 @@
     span{
         color: #A72424;
     }
+
+    @media screen and (min-width: 1024px) { 
+        h2 {
+            font-size: 56px;
+        }
+    }
 </style>
