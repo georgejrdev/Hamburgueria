@@ -13,7 +13,7 @@
 <style scoped>
     div {
         margin: auto;
-        width: 80%;
+        width: 75%;
         height: 50%;
         background-color: lightgray;
         border-radius: 40px;

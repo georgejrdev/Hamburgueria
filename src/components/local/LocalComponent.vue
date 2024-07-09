@@ -22,7 +22,7 @@
 
 <style scoped>
     section {
-        background: linear-gradient(to bottom, #FFF 0%, #FF8A00 88%);
+        background: linear-gradient(to bottom, #FFF 0%, #D78A31 88%);
         width: 100vw;
         max-width: 100%;
         padding-top: 10vh;
@@ -32,5 +32,11 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+
+    @media screen and (min-width: 1024px) {
+        section {
+            background: #D78A31;
+        }
     }
 </style>

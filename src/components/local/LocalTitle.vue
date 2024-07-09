@@ -23,4 +23,15 @@
     span {
         color: rgb(0, 0, 0);
     }
+
+    @media screen and (min-width: 1024px) { 
+        h2 {
+            color: black;
+            font-size: 56px;
+        }        
+
+        span {
+            color: white;
+        }
+    }
 </style>
