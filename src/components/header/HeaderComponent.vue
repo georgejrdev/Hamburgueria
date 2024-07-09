@@ -1,17 +1,20 @@
 <template>
     <header>
+        <HeaderNavBar />
         <HeaderTitle />
     </header>
 </template>
 
 
 <script>
+    import HeaderNavBar from './HeaderNavBar.vue'
     import HeaderTitle from './HeaderTitle.vue'
 
     export default {
         name: 'HeaderComponent',
         components: {
-            HeaderTitle,
+            HeaderNavBar,
+            HeaderTitle
         }
     }
 </script>
@@ -26,5 +29,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    @media screen and (min-width: 1024px) {
+        header {
+            background: linear-gradient(110deg, #FF8A00 0%, #FFF 50%);
+            justify-content: left;
+        }        
     }
 </style>

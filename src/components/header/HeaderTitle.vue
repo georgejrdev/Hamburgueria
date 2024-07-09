@@ -22,4 +22,11 @@
         font-family: "Londrina Solid", sans-serif;
         color: rgb(0, 0, 0);
     }
+
+    @media screen and (min-width: 1024px) {
+        h1 {
+            font-size: 120px;
+            margin-left: 8vw;
+        }
+    }
 </style>
